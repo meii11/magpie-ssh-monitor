@@ -1,0 +1,12 @@
+{
+  "name": "magpie-ssh-monitor",
+  "version": "0.3.0",
+  "description": "Read-only remote Codex quota and usage monitoring for Magpie on macOS",
+  "type": "module",
+  "main": "index.mjs",
+  "files": ["index.mjs", "manage.py", "collector.py", "remote_reader.py", "README.md", "README.zh-CN.md", "LICENSE"],
+  "scripts": {"test": "node --test tests/*.test.mjs"},
+  "keywords": ["magpie", "opencode-plugin", "ssh", "codex", "usage", "quota"],
+  "license": "MIT",
+  "repository": {"type":"git", "url":"https://github.com/meii11/magpie-ssh-monitor.git"}
+}
